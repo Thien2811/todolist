@@ -25,9 +25,7 @@
     <div>
       Fälligkeitsdatum:
       <span>{{ date }}</span>
-      ,  um
-      <span>{{ time }}</span>
-      Uhr
+      <span>{{ ', um ' + time + ' Uhr' }}</span>
     </div>
     
     <div>
